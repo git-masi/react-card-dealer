@@ -36,7 +36,7 @@ class Deck extends Component {
 
   render() {
     const displayCards = this.state.drawnCards.map(card => (
-      <Card 
+      <Card
         image={card.image}
         suit={card.suit}
         value={card.value}
@@ -44,7 +44,7 @@ class Deck extends Component {
       />
     ));
     return (
-      <div>
+      <div className="Deck">
         <h1>Deal Me In!</h1>
         <button onClick={this.getCard}>Deal!</button>
         <div>{displayCards}</div>
