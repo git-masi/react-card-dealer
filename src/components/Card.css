@@ -1,5 +1,6 @@
 .Card {
   position: absolute;
-  top: 10rem;
-  left: 10rem;
+  top: 40%;
+  left: 50%;
+  margin: auto;
 } 

@@ -1,3 +1,35 @@
 .Deck {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Deck-btn,
+.Deck-btn:focus {
+  margin: 1rem;
+  padding: 1rem 1.8rem;
+  cursor: pointer;
+  outline:0;
+
+  color: whitesmoke;
+  font-size: 2rem;
+
+  background: #419c5e;
+  border: .2rem solid transparent;
+  border-radius: .8rem;
+}
+
+.Deck-btn:hover {
+  color: #419c5e;
+  background: transparent;
+  border: .2rem solid #419c5e;
+}
+
+.Deck--card-container {
   position: relative;
+  margin-top: 8rem;
+  height: 100%;
+  width: 100%;
 }

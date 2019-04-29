@@ -7,7 +7,7 @@ class Card extends Component {
     let angle = Math.random() * 90 - 50;
     let xVal = Math.random() * 40 - 20;
     let yVal = Math.random() * 40 - 20;
-    this.transformCSS = `translate(${xVal}px, ${yVal}px) rotate(${angle}deg)`;
+    this.transformCSS = `translate(calc(-50% - ${xVal}px), calc(-50% - ${yVal}px)) rotate(${angle}deg)`;
   }
 
   render() {
